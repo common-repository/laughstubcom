@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+#ls_upcoming_shows {
+	background:none #fff;
+}
+
+#ls_upcoming_shows p, #ls_upcoming_shows span {
+	padding-left:0px !important;
+	padding-right:0px !important;
+	margin-left:0px !important;
+	margin-right:0px !important;
+}
+
+#ls_upcoming_shows ul {
+	margin:0;
+	padding:0;
+	text-indent:0;
+	list-style:none;
+}
+
+#ls_upcoming_shows ul li span.ls_showName {
+	display:block;
+}
+
+#ls_upcoming_shows ul li span.ls_showName a {
+	color:#106f9f;
+	font-weight:bold;
+}
+
+#ls_upcoming_shows li a.buy {
+	width:54px;
+	height:23px;
+	background:url(../images/btn-buy.gif) no-repeat;
+	text-indent:-9999px;
+	overflow:hidden;
+	display:block;
+}
+
+#ls_upcoming_shows li a.buy:hover { 
+	text-decoration:none; 
+	border:0;
+}
+
+#ls_upcoming_shows span.ls_showTime {
+	color:#900;
+}
+
+#ls_upcoming_shows p.ls_showVenue {
+	font-size:1.1em;
+	margin:5px 0 0 0;
+	color:#000;
+	text-transform:capitalize;
+}
+
+#ls_upcoming_shows p.ls_showDesc {
+	margin:5px 0 0 2px;
+	line-height:14px;
+	font-size:1em;
+}
+
+#ls_control_panel p.small, #ls_control_panel span.small {
+	font-size:9px;
+}
+
+#ls_control_panel p.small {
+	margin-top:2px;
+	color:#f00;
+	text-align:right;
+}
